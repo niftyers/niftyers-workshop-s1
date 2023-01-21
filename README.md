@@ -1,3 +1,1 @@
-# workshop-s1
-
-### Off-shore
+### WORKSHOP SEASON 1
