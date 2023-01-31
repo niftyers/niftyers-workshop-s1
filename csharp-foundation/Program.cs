@@ -12,7 +12,7 @@ namespace csharp_foundation
             var Ctrl = new UserController();
             Ctrl.Init();
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello!");
         }
     }
 }
