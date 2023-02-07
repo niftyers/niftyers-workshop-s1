@@ -6,7 +6,7 @@ namespace Niftyers {
     [Route("[controller]")]
     public class FlyFFController : ControllerBase {
         
-        //get baseUlr+flyff
+        //get baseUlr + flyff + method
         [HttpGet("short")]
         public int GetAgeasdjalkdjksajdasdjaskdjlaksjdkljaskldjaklsjdkjaslkdasjd() {
             return 25;
