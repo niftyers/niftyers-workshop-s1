@@ -31,11 +31,11 @@ namespace Niftyers {
         [HttpPost("Info")]
         public  IActionResult Info(string ID) {
              
-            var data = Books.Find(b => b.ID == ID);
+            var book = Books.Find(b => b.ID == ID);
 
-            if (data == null) return Ok("No record found");
+            if (book == null) return Ok("No record found");
 
-            return Ok(data) ;
+            return Ok(book) ;
         }
 
         [HttpPost("Delete")]
