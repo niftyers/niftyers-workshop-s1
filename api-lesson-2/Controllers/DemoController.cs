@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-
 using RuralBank;
 
 namespace Niftyers {
